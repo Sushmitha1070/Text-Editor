@@ -1,0 +1,24 @@
+.italic-toggle {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid #f3eded;
+  background-color: #ef89d2;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.italic-toggle.active {
+    border: 2px solid #f3eded;
+  background-color: #24e350; 
+  color: #041207;
+}
+
+.italic-toggle.enabled {
+  cursor: pointer;
+}
+
+.italic-toggle.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
